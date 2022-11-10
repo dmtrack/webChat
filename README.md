@@ -1,4 +1,4 @@
-## Hackaton project SPA
+## webChat project-SPA
 [https://dmtrack.github.io/webChat/](https://dmtrack.github.io/webChat/)
 
 ### Description
