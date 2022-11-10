@@ -1,31 +1,38 @@
 const chats = [
     {
         _id: "67rdca3eeb7f6fgeed471815",
-        name: "JavaScript"
+        name: "JavaScript",
+        image: "https://www.svgrepo.com/show/327372/logo-javascript.svg"
     },
     {
         _id: "67rdca3eeb7f6fgeed471816",
-        name: "nodeJS"
+        name: "nodeJS",
+        image: "https://seeklogo.com/images/N/nodejs-logo-D26404F360-seeklogo.com.png"
     },
     {
         _id: "67rdca3eeb7f6fgeed471817",
-        name: "Java"
+        name: "Java",
+        image: "https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png"
     },
     {
         _id: "67rdca3eeb7f6fgeed471818",
-        name: "PHP"
+        name: "PHP",
+        image: "https://i.pinimg.com/originals/2d/3a/7d/2d3a7d7d1ad7adeded994de246f60c43.png"
     },
     {
         _id: "67rdca3eeb7f6fgeed471819",
-        name: "Ruby"
+        name: "Ruby",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Devicon-ruby-plain.svg/1200px-Devicon-ruby-plain.svg.png"
     },
     {
         _id: "67rdca3eeb7f6fgeed471820",
-        name: "С++"
+        name: "С++",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png"
     },
     {
         _id: "67rdca3eeb7f6fgeed471821",
-        name: "Kotlin"
+        name: "Kotlin",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kotlin_Icon_2021.svg/2048px-Kotlin_Icon_2021.svg.png"
     }
 ];
 if (!localStorage.getItem("chats")) {

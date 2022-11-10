@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { displayDate } from "../../../utils/displayDate";
 import API from "../../../api";
 import { getUserById } from "../../../api/fake.api/users.api";
+import { getUser } from "../../../utils/sessionStorage.service";
 const Comment = ({
     content,
     created_at: created,
@@ -11,6 +12,7 @@ const Comment = ({
     chatId,
     onRemove
 }) => {
+    const currentUser = getUser();
     const user = getUserById(userId);
     const [chat, setChat] = useState();
     const [isLoading, setIsLoading] = useState(false);
@@ -51,12 +53,14 @@ const Comment = ({
                                                 {displayDate(created)}
                                             </span>
                                         </p>
-                                        <button
-                                            className="btn btn-sm text-primary d-flex align-items-center"
-                                            onClick={() => onRemove(id)}
-                                        >
-                                            <i className="bi bi-x-lg"></i>
-                                        </button>
+                                        {currentUser._id === userId ? (
+                                            <button
+                                                className="btn btn-sm text-primary d-flex align-items-center"
+                                                onClick={() => onRemove(id)}
+                                            >
+                                                <i className="bi bi-x-lg"></i>
+                                            </button>
+                                        ) : null}
                                     </div>
                                     <p className="small mb-0">{content}</p>
                                 </div>

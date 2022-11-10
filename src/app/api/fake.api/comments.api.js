@@ -3,21 +3,21 @@ const comments = [
         _id: "67rdca3eeb7f6fg",
         userId: "67rdca3eeb7f6fg1",
         pageId: "67rdca3eeb7f6fgeed471815",
-        content: "Lorem ipsum dolor",
+        content: "I love JS",
         created_at: "1633576399367"
     },
     {
         _id: "67rdca3eeb7f6fgdasd",
         pageId: "67rdca3eeb7f6fgeed471815",
         userId: "67rdca3eeb7f6fgdasd2",
-        content: "Lorem ipsum dolor and etc",
+        content: "Hello world!",
         created_at: "1633573058520"
     },
     {
         _id: "67rdca3eeb7f6fgdaasd",
         pageId: "67rdca3eeb7f6fgeed471817",
         userId: "67rdca3eeb7f6fgdaasd3",
-        content: "Lorem ipsum dolor and etc",
+        content: "Like it",
         created_at: "1633573058520"
     }
 ];
