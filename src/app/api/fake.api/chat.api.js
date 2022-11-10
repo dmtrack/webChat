@@ -17,7 +17,7 @@ const chats = [
     {
         _id: "67rdca3eeb7f6fgeed471818",
         name: "PHP",
-        image: "https://i.pinimg.com/originals/2d/3a/7d/2d3a7d7d1ad7adeded994de246f60c43.png"
+        image: "https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/php-512.png"
     },
     {
         _id: "67rdca3eeb7f6fgeed471819",
